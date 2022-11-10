@@ -1,8 +1,7 @@
 import React, { useEffect,useState } from "react";
 import './App.css';
 import Calculator from "./components/calculator";
-// import CalculatorContract from './contracts/Calculator.json';
-import {connectWeb3, connectWeb3Metamask} from './functions'
+import {connectWeb3} from './functions'
 
 function App() {
 
@@ -15,8 +14,6 @@ function App() {
         let {accounts, instance} = await connectWeb3();
         setAccounts(accounts);
         setContract(instance);
-        // await connectWeb3Metamask()
-
       } catch (error) {
         alert(
           `Failed to load web3, accounts, or contract. Check console for details.`,

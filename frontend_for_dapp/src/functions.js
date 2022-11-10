@@ -18,19 +18,6 @@ async function connectWeb3() {
     return {accounts, instance}
 }
 
-async function connectWeb3Metamask() {
-    const web3 = new Web3(Web3.givenProvider || "http://127.0.0.1:8545");
-    await window.ethereum.enable();
-    const accounts = await web3.eth.getAccounts();
-    const networkId = await web3.eth.net.getId();
-    const deployedNetwork = await CalculatorContract.networks[networkId];
-    const instance = new web3.eth.Contract(
-        CalculatorContract.abi,
-        deployedNetwork.address
-    );
-    return {accounts, instance}
-}
-
 async function addFunction(contractInstance, account, num1, num2){
     let res2 = await contractInstance.methods.addNum(Number(num1), Number(num2)).send({from: account});
     console.log("Res:",res2);

@@ -15,8 +15,8 @@ module.exports = {
   networks: {
     sepolia: {
       provider: () => new HDWalletProvider(mnemonic, `https://sepolia.infura.io/v3/${infuraProjectId}`),
-      network_id: 11155111,       // Goerli's network id
-      chain_id: 11155111,         // Goerli's chain id
+      network_id: 11155111,       // sepolia's network id
+      chain_id: 11155111,         // sepolia's chain id
       gas: 5500000,        // Gas limit used for deploys.
       confirmations: 2,    // # of confirmations to wait between deployments. (default: 0)
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)

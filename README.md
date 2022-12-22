@@ -23,9 +23,13 @@ use web3-provider to call the functions of smart contract.
 
     video link: https://youtu.be/NxPtxtM8OHc
 
-3. **frontend_for_dapp**: In this video we have covered how do develop a frontend for our dapp application using ReactJs. We have also covered how to interact with smart contract using web application made with ReactJS. We have first established the connection using web3Providers and then tried to interact with the smart contract. 
+3. **frontend_for_dapp**: In this video we have covered how to develop a frontend for our dapp application using ReactJs. We have also covered how to interact with smart contract using web application made with ReactJS. We have first established the connection using web3Providers and then tried to interact with the smart contract. 
     
-    video link: 
+    video link: https://youtu.be/8CI64q2X98w
+    
+4. **interact_using_metamask**: In this video we have covered how to connect metamask with our react application. We have also covered how to interact with smart contract using react application.
+    
+    video link: https://youtu.be/0mVP3_1Jz9o
 
 **Youtube Handel**: @blockchainvidyaalay
 

@@ -30,6 +30,10 @@ use web3-provider to call the functions of smart contract.
 4. **interact_using_metamask**: In this video we have covered how to connect metamask with our react application. We have also covered how to interact with smart contract using react application.
     
     video link: https://youtu.be/0mVP3_1Jz9o
+    
+4. **deploy_on_testnet**: This repo contains the complete project of how to deploy and also the web ui.
+    
+    video link: https://youtu.be/0mVP3_1Jz9o
 
 **Youtube Handel**: @blockchainvidyaalay
 
